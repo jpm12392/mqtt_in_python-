@@ -8,5 +8,5 @@ Python is a popular programming language in IoT because it’s open source, it h
 pip3 install paho-mqtt<2.0.0
 MQTT Broker plays a very important role in MQTT. Each device can connect to one broker to share information with countless other devices with only one open connection
 
-**MQTT Security Best Practices While Using Python with an MQTT Broker**
+**MQTT Security Best Practices While Using Python with an MQTT Broker** :
 Because MQTT is optimized for efficient communication between IoT devices, not secure communication, it’s important to follow security practices while implementing MQTT using Python. IoT devices often have limited memory and computing capabilities, which makes paying attention to security even more important.
