@@ -1,6 +1,7 @@
 import paho.mqtt.client as mqtt
 import time
 
+# The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, message):
     print("Received message: ", str(message.payload.decode("utf-8")))
 
